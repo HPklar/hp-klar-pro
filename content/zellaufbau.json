@@ -1,0 +1,858 @@
+{
+  "module": "Zellaufbau",
+  "lessons": [
+    {
+      "id": "grundaufbau",
+      "title": "Grundaufbau der menschlichen Zelle",
+      "duration": 18,
+      "intro": "Die Zelle ist die kleinste lebensfähige Einheit des Körpers. Ihr Grundbauplan umfasst Zellmembran, Zytoplasma und Zellkern.",
+      "goals": [
+        "Zellmembran, Zytoplasma und Zellkern unterscheiden",
+        "Organellen räumlich zuordnen",
+        "Grundfunktionen klinisch einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Die Zellmembran grenzt ab und reguliert Austausch sowie Signalaufnahme."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Das Zytoplasma umfasst Zytosol und Organellen; hier laufen viele Stoffwechselreaktionen ab."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Der Zellkern enthält den größten Teil der DNA und steuert Genaktivität, Wachstum und Teilung."
+        }
+      ],
+      "merksatz": "Membran schützt – Kern steuert – Mitochondrien liefern ATP.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Grundaufbau der menschlichen Zelle“ ist richtig?",
+          "a": [
+            "Die Zellmembran grenzt ab und reguliert Austausch sowie Signalaufnahme.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Zellmembran, Zytoplasma und Zellkern unterscheiden",
+          "Die Zellmembran grenzt ab und reguliert Austausch sowie Signalaufnahme."
+        ],
+        [
+          "Merksatz zu Grundaufbau der menschlichen Zelle",
+          "Membran schützt – Kern steuert – Mitochondrien liefern ATP."
+        ]
+      ]
+    },
+    {
+      "id": "zellmembran",
+      "title": "Zellmembran",
+      "duration": 21,
+      "intro": "Die Membran ist eine dynamische Phospholipid-Doppelschicht mit Proteinen, Cholesterin und Kohlenhydratanteilen.",
+      "goals": [
+        "Fluid-Mosaik-Modell erklären",
+        "hydrophile und hydrophobe Bereiche unterscheiden",
+        "Membranproteine funktionell zuordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Phospholipide besitzen einen wasserliebenden Kopf und wassermeidende Fettsäureschwänze."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Kanäle, Carrier, Pumpen und Rezeptoren ermöglichen Transport und Kommunikation."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Membranschäden erhöhen die Permeabilität und gefährden die zelluläre Homöostase."
+        }
+      ],
+      "merksatz": "Die Membran trennt, verbindet und entscheidet.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Zellmembran“ ist richtig?",
+          "a": [
+            "Phospholipide besitzen einen wasserliebenden Kopf und wassermeidende Fettsäureschwänze.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Fluid-Mosaik-Modell erklären",
+          "Phospholipide besitzen einen wasserliebenden Kopf und wassermeidende Fettsäureschwänze."
+        ],
+        [
+          "Merksatz zu Zellmembran",
+          "Die Membran trennt, verbindet und entscheidet."
+        ]
+      ]
+    },
+    {
+      "id": "membrantransport",
+      "title": "Membrantransport",
+      "duration": 24,
+      "intro": "Transport geschieht passiv entlang oder aktiv gegen Konzentrations- und elektrochemische Gradienten.",
+      "goals": [
+        "Diffusion und erleichterte Diffusion unterscheiden",
+        "Osmose erklären",
+        "Endo- und Exozytose beschreiben"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Einfache Diffusion benötigt weder ATP noch Transportprotein."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Erleichterte Diffusion nutzt Kanäle oder Carrier, bleibt aber passiv."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Primär aktive Pumpen nutzen ATP direkt; Vesikeltransport bewegt größere Stoffmengen."
+        }
+      ],
+      "merksatz": "Passiv mit dem Gradienten, aktiv gegen den Gradienten.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Membrantransport“ ist richtig?",
+          "a": [
+            "Einfache Diffusion benötigt weder ATP noch Transportprotein.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Diffusion und erleichterte Diffusion unterscheiden",
+          "Einfache Diffusion benötigt weder ATP noch Transportprotein."
+        ],
+        [
+          "Merksatz zu Membrantransport",
+          "Passiv mit dem Gradienten, aktiv gegen den Gradienten."
+        ]
+      ]
+    },
+    {
+      "id": "zytoplasma",
+      "title": "Zytoplasma und Zytoskelett",
+      "duration": 27,
+      "intro": "Das Zytoplasma ist Reaktionsraum; das Zytoskelett gibt Form, Stabilität und Bewegung.",
+      "goals": [
+        "Zytosol und Zytoplasma unterscheiden",
+        "Mikrotubuli, Aktin und Intermediärfilamente zuordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Das Zytosol ist der flüssige Anteil des Zytoplasmas."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Mikrotubuli dienen als Transportbahnen und bilden den Spindelapparat."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Aktinfilamente ermöglichen Kontraktion und Zellbewegung."
+        }
+      ],
+      "merksatz": "Mikrotubuli fahren, Aktin bewegt, Intermediärfilamente halten.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Zytoplasma und Zytoskelett“ ist richtig?",
+          "a": [
+            "Das Zytosol ist der flüssige Anteil des Zytoplasmas.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Zytosol und Zytoplasma unterscheiden",
+          "Das Zytosol ist der flüssige Anteil des Zytoplasmas."
+        ],
+        [
+          "Merksatz zu Zytoplasma und Zytoskelett",
+          "Mikrotubuli fahren, Aktin bewegt, Intermediärfilamente halten."
+        ]
+      ]
+    },
+    {
+      "id": "zellkern",
+      "title": "Zellkern und DNA",
+      "duration": 30,
+      "intro": "Der Zellkern organisiert die Erbinformation und kontrolliert, welche Gene abgelesen werden.",
+      "goals": [
+        "Kernhülle und Kernporen erklären",
+        "Chromatin, Gen und Chromosom unterscheiden"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Die doppelte Kernhülle steht mit dem ER in Verbindung."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Kernporen kontrollieren den Austausch mit dem Zytoplasma."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Im Nucleolus entstehen ribosomale Untereinheiten."
+        }
+      ],
+      "merksatz": "DNA ist der Text, das Gen ein Abschnitt, das Chromosom die verpackte Ausgabe.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Zellkern und DNA“ ist richtig?",
+          "a": [
+            "Die doppelte Kernhülle steht mit dem ER in Verbindung.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Kernhülle und Kernporen erklären",
+          "Die doppelte Kernhülle steht mit dem ER in Verbindung."
+        ],
+        [
+          "Merksatz zu Zellkern und DNA",
+          "DNA ist der Text, das Gen ein Abschnitt, das Chromosom die verpackte Ausgabe."
+        ]
+      ]
+    },
+    {
+      "id": "proteinsynthese",
+      "title": "Ribosomen und Proteinsynthese",
+      "duration": 18,
+      "intro": "Proteinsynthese übersetzt genetische Information in eine Aminosäuresequenz.",
+      "goals": [
+        "Transkription und Translation unterscheiden",
+        "mRNA, tRNA und Ribosomen erklären"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Im Kern wird DNA in RNA umgeschrieben."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Ribosomen lesen mRNA-Codons."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "tRNA liefert die jeweils passende Aminosäure."
+        }
+      ],
+      "merksatz": "Transkription schreibt ab, Translation übersetzt.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Ribosomen und Proteinsynthese“ ist richtig?",
+          "a": [
+            "Im Kern wird DNA in RNA umgeschrieben.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Transkription und Translation unterscheiden",
+          "Im Kern wird DNA in RNA umgeschrieben."
+        ],
+        [
+          "Merksatz zu Ribosomen und Proteinsynthese",
+          "Transkription schreibt ab, Translation übersetzt."
+        ]
+      ]
+    },
+    {
+      "id": "er",
+      "title": "Raues und glattes ER",
+      "duration": 21,
+      "intro": "Das ER ist ein Membrannetzwerk für Synthese, Verarbeitung, Speicherung und Entgiftung.",
+      "goals": [
+        "rER und sER unterscheiden",
+        "Funktionen organspezifisch einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Raues ER trägt Ribosomen und verarbeitet Export- sowie Membranproteine."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Glattes ER synthetisiert Lipide und Steroide."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "In Muskelzellen speichert das sarkoplasmatische Retikulum Calcium."
+        }
+      ],
+      "merksatz": "Rau: Proteine. Glatt: Lipide, Entgiftung, Calcium.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Raues und glattes ER“ ist richtig?",
+          "a": [
+            "Raues ER trägt Ribosomen und verarbeitet Export- sowie Membranproteine.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "rER und sER unterscheiden",
+          "Raues ER trägt Ribosomen und verarbeitet Export- sowie Membranproteine."
+        ],
+        [
+          "Merksatz zu Raues und glattes ER",
+          "Rau: Proteine. Glatt: Lipide, Entgiftung, Calcium."
+        ]
+      ]
+    },
+    {
+      "id": "golgi",
+      "title": "Golgi-Apparat",
+      "duration": 24,
+      "intro": "Der Golgi-Apparat modifiziert, sortiert und versendet Proteine und Lipide.",
+      "goals": [
+        "cis- und trans-Seite erklären",
+        "Golgi-Funktion mit Sekretion verknüpfen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Die cis-Seite empfängt Vesikel vom ER."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Die trans-Seite sortiert Produkte für Membran, Lysosomen oder Sekretion."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Fehlmarkierung kann den intrazellulären Transport stören."
+        }
+      ],
+      "merksatz": "ER produziert, Golgi adressiert und versendet.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Golgi-Apparat“ ist richtig?",
+          "a": [
+            "Die cis-Seite empfängt Vesikel vom ER.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "cis- und trans-Seite erklären",
+          "Die cis-Seite empfängt Vesikel vom ER."
+        ],
+        [
+          "Merksatz zu Golgi-Apparat",
+          "ER produziert, Golgi adressiert und versendet."
+        ]
+      ]
+    },
+    {
+      "id": "mitochondrien",
+      "title": "Mitochondrien und ATP",
+      "duration": 27,
+      "intro": "Mitochondrien koppeln Nährstoffabbau an ATP-Bildung.",
+      "goals": [
+        "Doppelmembran erklären",
+        "Citratzyklus und Atmungskette zuordnen",
+        "ATP-Mangel klinisch einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Der Citratzyklus läuft überwiegend in der Matrix."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Die Atmungskette liegt an der inneren Membran."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Sauerstoffmangel stoppt oxidative Phosphorylierung und beeinträchtigt aktive Pumpen."
+        }
+      ],
+      "merksatz": "Mitochondrien wandeln Energie in ATP um.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Mitochondrien und ATP“ ist richtig?",
+          "a": [
+            "Der Citratzyklus läuft überwiegend in der Matrix.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Doppelmembran erklären",
+          "Der Citratzyklus läuft überwiegend in der Matrix."
+        ],
+        [
+          "Merksatz zu Mitochondrien und ATP",
+          "Mitochondrien wandeln Energie in ATP um."
+        ]
+      ]
+    },
+    {
+      "id": "lysosomen",
+      "title": "Lysosomen und Peroxisomen",
+      "duration": 30,
+      "intro": "Beide Organellen bauen Stoffe ab, verwenden aber unterschiedliche Enzymsysteme.",
+      "goals": [
+        "Autophagie erklären",
+        "Katalase und Wasserstoffperoxid einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Lysosomen enthalten saure Hydrolasen und recyceln Zellbestandteile."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Peroxisomen oxidieren sehr langkettige Fettsäuren."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Katalase baut entstehendes Wasserstoffperoxid ab."
+        }
+      ],
+      "merksatz": "Lysosomen verdauen, Peroxisomen oxidieren.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Lysosomen und Peroxisomen“ ist richtig?",
+          "a": [
+            "Lysosomen enthalten saure Hydrolasen und recyceln Zellbestandteile.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Autophagie erklären",
+          "Lysosomen enthalten saure Hydrolasen und recyceln Zellbestandteile."
+        ],
+        [
+          "Merksatz zu Lysosomen und Peroxisomen",
+          "Lysosomen verdauen, Peroxisomen oxidieren."
+        ]
+      ]
+    },
+    {
+      "id": "mitose",
+      "title": "Mitose",
+      "duration": 18,
+      "intro": "Mitose verteilt verdoppeltes Erbgut auf zwei weitgehend identische Tochterzellen.",
+      "goals": [
+        "Mitosephasen ordnen",
+        "Bedeutung für Wachstum und Regeneration erklären"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Prophase: Chromosomen kondensieren."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Metaphase: Anordnung in der Äquatorialebene."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Anaphase: Schwesterchromatiden trennen sich; Telophase: neue Kerne entstehen."
+        }
+      ],
+      "merksatz": "Pro–Meta–Ana–Telo: vorbereiten, mittig, auseinander, zwei Kerne.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Mitose“ ist richtig?",
+          "a": [
+            "Prophase: Chromosomen kondensieren.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Mitosephasen ordnen",
+          "Prophase: Chromosomen kondensieren."
+        ],
+        [
+          "Merksatz zu Mitose",
+          "Pro–Meta–Ana–Telo: vorbereiten, mittig, auseinander, zwei Kerne."
+        ]
+      ]
+    },
+    {
+      "id": "meiose",
+      "title": "Meiose",
+      "duration": 21,
+      "intro": "Meiose halbiert den Chromosomensatz und erzeugt genetische Vielfalt.",
+      "goals": [
+        "Meiose I und II unterscheiden",
+        "Crossing-over erklären",
+        "Nondisjunction einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Homologe Chromosomen paaren sich und können Abschnitte austauschen."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Die erste Teilung reduziert den Chromosomensatz."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Fehltrennung kann Aneuploidien verursachen."
+        }
+      ],
+      "merksatz": "Meiose I trennt Paare, Meiose II trennt Chromatiden.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Meiose“ ist richtig?",
+          "a": [
+            "Homologe Chromosomen paaren sich und können Abschnitte austauschen.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Meiose I und II unterscheiden",
+          "Homologe Chromosomen paaren sich und können Abschnitte austauschen."
+        ],
+        [
+          "Merksatz zu Meiose",
+          "Meiose I trennt Paare, Meiose II trennt Chromatiden."
+        ]
+      ]
+    },
+    {
+      "id": "zellzyklus",
+      "title": "Zellzyklus",
+      "duration": 24,
+      "intro": "Der Zellzyklus koordiniert Wachstum, DNA-Verdopplung, Kontrolle und Teilung.",
+      "goals": [
+        "G1-, S-, G2- und M-Phase erklären",
+        "Checkpoints und G0 einordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "In G1 wächst die Zelle."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "In der S-Phase wird DNA repliziert."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Checkpoints verhindern möglichst die Weitergabe beschädigter DNA."
+        }
+      ],
+      "merksatz": "G1 wächst, S kopiert, G2 prüft, M teilt.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Zellzyklus“ ist richtig?",
+          "a": [
+            "In G1 wächst die Zelle.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "G1-, S-, G2- und M-Phase erklären",
+          "In G1 wächst die Zelle."
+        ],
+        [
+          "Merksatz zu Zellzyklus",
+          "G1 wächst, S kopiert, G2 prüft, M teilt."
+        ]
+      ]
+    },
+    {
+      "id": "zelltod",
+      "title": "Apoptose und Nekrose",
+      "duration": 27,
+      "intro": "Apoptose ist regulierter Zelltod; Nekrose folgt meist schwerer Schädigung.",
+      "goals": [
+        "Apoptose und Nekrose unterscheiden",
+        "klinische Folgen erklären"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Apoptose ist energieabhängig und meist wenig entzündlich."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Nekrose geht mit Membranzerfall und Freisetzung von Zellinhalten einher."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "ATP-Mangel fördert Zellschwellung und irreversible Schäden."
+        }
+      ],
+      "merksatz": "Apoptose räumt geordnet auf, Nekrose platzt entzündlich.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Apoptose und Nekrose“ ist richtig?",
+          "a": [
+            "Apoptose ist energieabhängig und meist wenig entzündlich.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Apoptose und Nekrose unterscheiden",
+          "Apoptose ist energieabhängig und meist wenig entzündlich."
+        ],
+        [
+          "Merksatz zu Apoptose und Nekrose",
+          "Apoptose räumt geordnet auf, Nekrose platzt entzündlich."
+        ]
+      ]
+    },
+    {
+      "id": "gewebe",
+      "title": "Gewebegrundlagen",
+      "duration": 30,
+      "intro": "Vier Grundgewebe bilden alle Organe: Epithel-, Binde- und Stütz-, Muskel- und Nervengewebe.",
+      "goals": [
+        "vier Grundgewebe nennen",
+        "typische Funktionen zuordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Epithelien bedecken Oberflächen und bilden Drüsen."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Binde- und Stützgewebe verbindet, speichert und trägt."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Muskelgewebe kontrahiert; Nervengewebe verarbeitet und leitet Reize."
+        }
+      ],
+      "merksatz": "Epithel deckt, Binde verbindet, Muskel bewegt, Nerv leitet.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Gewebegrundlagen“ ist richtig?",
+          "a": [
+            "Epithelien bedecken Oberflächen und bilden Drüsen.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "vier Grundgewebe nennen",
+          "Epithelien bedecken Oberflächen und bilden Drüsen."
+        ],
+        [
+          "Merksatz zu Gewebegrundlagen",
+          "Epithel deckt, Binde verbindet, Muskel bewegt, Nerv leitet."
+        ]
+      ]
+    },
+    {
+      "id": "pro-euk",
+      "title": "Prokaryoten und Eukaryoten",
+      "duration": 18,
+      "intro": "Der Vergleich erklärt grundlegende Unterschiede zwischen menschlichen Zellen und Bakterien.",
+      "goals": [
+        "Pro- und Eukaryoten abgrenzen",
+        "70S- und 80S-Ribosomen zuordnen"
+      ],
+      "sections": [
+        {
+          "h": "Grundlagen",
+          "p": "Prokaryoten besitzen keinen membranumhüllten Zellkern."
+        },
+        {
+          "h": "Funktion und Zusammenhang",
+          "p": "Eukaryoten besitzen Kern und membranumhüllte Organellen."
+        },
+        {
+          "h": "Klinischer und prüfungsrelevanter Bezug",
+          "p": "Bakterielle 70S-Ribosomen sind ein wichtiger pharmakologischer Angriffspunkt."
+        }
+      ],
+      "merksatz": "Prokaryoten ohne echten Kern, Eukaryoten mit Kern und Organellen.",
+      "quiz": [
+        {
+          "q": "Welche Aussage zu „Prokaryoten und Eukaryoten“ ist richtig?",
+          "a": [
+            "Prokaryoten besitzen keinen membranumhüllten Zellkern.",
+            "Die Struktur kommt in menschlichen Zellen grundsätzlich nicht vor.",
+            "Der Vorgang benötigt immer direkt ATP.",
+            "Das Thema ist für Zellfunktion ohne Bedeutung."
+          ],
+          "correct": 0,
+          "why": [
+            "Richtig: Diese Aussage beschreibt den zentralen Sachverhalt der Lektion.",
+            "Falsch: Die Aussage widerspricht dem Zellaufbau beziehungsweise der Zellphysiologie.",
+            "Falsch: Nicht jeder zelluläre Vorgang benötigt ATP unmittelbar.",
+            "Falsch: Das Thema trägt wesentlich zu Aufbau, Regulation oder Funktion der Zelle bei."
+          ]
+        }
+      ],
+      "cards": [
+        [
+          "Pro- und Eukaryoten abgrenzen",
+          "Prokaryoten besitzen keinen membranumhüllten Zellkern."
+        ],
+        [
+          "Merksatz zu Prokaryoten und Eukaryoten",
+          "Prokaryoten ohne echten Kern, Eukaryoten mit Kern und Organellen."
+        ]
+      ]
+    }
+  ]
+}
