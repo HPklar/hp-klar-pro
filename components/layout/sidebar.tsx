@@ -1,37 +1,50 @@
-const items = [
-  ["⌂", "Dashboard"],
-  ["▤", "Akademie"],
-  ["☆", "Favoriten"],
-  ["↻", "Wiederholen"],
-  ["↗", "Fortschritt"],
-  ["▣", "Prüfung"],
-  ["◈", "UI Kit"],
+"use client";
+
+type Page = "dashboard" | "atlas";
+
+const items: Array<[string, string, Page | null]> = [
+  ["⌂", "Dashboard", "dashboard"],
+  ["▤", "Akademie", "atlas"],
+  ["☆", "Favoriten", null],
+  ["↻", "Wiederholen", null],
+  ["↗", "Fortschritt", null],
+  ["▣", "Prüfung", null]
 ];
 
-export function Sidebar({ active = "Dashboard" }: { active?: string }) {
+export function Sidebar({
+  active,
+  onNavigate,
+}: {
+  active: Page;
+  onNavigate: (page: Page) => void;
+}) {
   return (
     <aside className="sidebar">
-      <div className="brand">
-        <div className="logo">♡</div>
+      <button className="brand" onClick={() => onNavigate("dashboard")} aria-label="Zur Startseite">
+        <img src="/hp-klar-logo.svg" alt="" />
         <div>
-          <strong>HP Klar</strong>
-          <span>Pro</span>
+          <strong>HP Klar Pro</strong>
+          <span>Die Heilpraktiker-Akademie</span>
         </div>
-      </div>
+      </button>
 
       <nav>
-        {items.map(([icon, label]) => (
-          <a key={label} className={label === active ? "active" : ""} href="#">
+        {items.map(([icon, label, target]) => (
+          <button
+            key={label}
+            className={target === active ? "active" : ""}
+            onClick={() => target && onNavigate(target)}
+          >
             <span className="icon">{icon}</span>
             <span className="label">{label}</span>
-          </a>
+          </button>
         ))}
       </nav>
 
-      <div className="course">
-        <span>Aktueller Kurs</span>
-        <strong>Zellaufbau</strong>
-        <small>82 % abgeschlossen</small>
+      <div className="exam">
+        <span>Prüfung</span>
+        <strong>März 2027</strong>
+        <small>Dein Lernplan ist aktiv</small>
       </div>
 
       <style jsx>{`
@@ -41,64 +54,63 @@ export function Sidebar({ active = "Dashboard" }: { active?: string }) {
           height: 100vh;
           display: flex;
           flex-direction: column;
-          gap: 28px;
-          padding: 24px 16px;
-          border-right: 1px solid rgba(33,84,63,.10);
-          background: rgba(255,255,255,.72);
-          backdrop-filter: blur(20px);
-          z-index: 10;
+          gap: 30px;
+          padding: 22px 16px;
+          border-right: 1px solid rgba(29,81,63,.10);
+          background: rgba(255,255,255,.76);
+          backdrop-filter: blur(22px);
+          z-index: 20;
         }
         .brand {
           display: flex;
           align-items: center;
-          gap: 11px;
-          padding: 0 8px;
-          color: var(--green-950);
+          gap: 12px;
+          padding: 0 7px;
+          border: 0;
+          background: transparent;
+          text-align: left;
+          cursor: pointer;
         }
-        .logo {
-          width: 42px;
-          height: 42px;
-          display: grid;
-          place-items: center;
-          border-radius: 14px;
-          color: white;
-          background: var(--green-900);
-          font-size: 1.4rem;
-        }
-        .brand div:last-child { display: grid; line-height: 1.05; }
-        .brand strong { font-family: "Plus Jakarta Sans", sans-serif; }
-        .brand span { color: var(--ink-500); font-size: .72rem; margin-top: 4px; }
+        .brand img { width: 50px; height: 50px; }
+        .brand div { display: grid; line-height: 1.08; }
+        .brand strong { color: var(--green-950); font-size: 1.05rem; }
+        .brand span { margin-top: 5px; color: var(--ink-500); font-size: .68rem; }
         nav { display: grid; gap: 6px; }
-        nav a {
+        nav button {
+          min-height: 46px;
           display: flex;
           align-items: center;
           gap: 12px;
-          min-height: 46px;
           padding: 0 13px;
+          border: 0;
           border-radius: 14px;
           color: var(--ink-700);
+          background: transparent;
           font-weight: 680;
+          cursor: pointer;
+          text-align: left;
         }
-        nav a:hover, nav a.active {
+        nav button:hover, nav button.active {
           color: var(--green-950);
           background: var(--green-100);
         }
-        .icon { width: 24px; text-align: center; font-size: 1.15rem; }
-        .course {
+        .icon { width: 24px; text-align: center; font-size: 1.16rem; }
+        .exam {
           margin-top: auto;
           display: grid;
           gap: 4px;
           padding: 15px;
           border-radius: var(--radius-md);
-          background: var(--green-950);
           color: white;
+          background: var(--green-950);
         }
-        .course span, .course small { opacity: .72; }
-        .course span { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
-        @media (max-width: 980px) {
-          .brand div:last-child, .label, .course { display: none; }
+        .exam span, .exam small { opacity: .72; }
+        .exam span { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
+        @media (max-width: 1020px) {
+          .brand div, .label, .exam { display: none; }
           .sidebar { align-items: center; padding-inline: 12px; }
-          nav a { justify-content: center; width: 52px; padding: 0; }
+          .brand { padding: 0; }
+          nav button { width: 52px; justify-content: center; padding: 0; }
         }
         @media (max-width: 760px) {
           .sidebar {
@@ -112,10 +124,10 @@ export function Sidebar({ active = "Dashboard" }: { active?: string }) {
             border-top: 1px solid var(--line);
             border-right: 0;
           }
-          .brand, .course { display: none; }
+          .brand, .exam { display: none; }
           nav { width: 100%; display: flex; justify-content: space-around; }
-          nav a { width: 44px; min-height: 44px; }
-          nav a:nth-child(n+6) { display: none; }
+          nav button { width: 44px; min-height: 44px; }
+          nav button:nth-child(n+6) { display: none; }
         }
       `}</style>
     </aside>

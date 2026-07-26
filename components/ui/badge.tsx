@@ -21,8 +21,7 @@ export function Badge({
           padding: 4px 10px;
           border-radius: 999px;
           font-size: .77rem;
-          font-weight: 800;
-          letter-spacing: .015em;
+          font-weight: 820;
         }
         .badge-default { color: white; background: var(--green-900); }
         .badge-soft { color: var(--green-900); background: var(--green-100); }

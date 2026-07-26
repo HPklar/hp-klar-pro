@@ -1,58 +1,49 @@
-export function Topbar({ title }: { title: string }) {
+import { Button } from "@/components/ui/button";
+
+export function Topbar({ onOpenAtlas }: { onOpenAtlas: () => void }) {
   return (
     <header className="topbar">
-      <div>
-        <span className="eyebrow">HP Klar Pro</span>
-        <strong>{title}</strong>
-      </div>
+      <label>
+        <span>⌕</span>
+        <input aria-label="Suche" placeholder="Suche in allen Inhalten …" />
+      </label>
       <div className="actions">
-        <label>
-          <span>⌕</span>
-          <input aria-label="Suche" placeholder="In HP Klar suchen …" />
-        </label>
-        <button aria-label="Benachrichtigungen">♢</button>
+        <Button variant="secondary" onClick={onOpenAtlas}>Zellatlas öffnen</Button>
+        <button className="iconButton" aria-label="Darstellung wechseln">☾</button>
         <button className="avatar" aria-label="Profil">S</button>
       </div>
       <style jsx>{`
         .topbar {
-          width: min(1180px, 100%);
-          min-height: 82px;
+          width: min(1240px, 100%);
+          min-height: 88px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 18px;
           margin: 0 auto;
         }
-        .topbar > div:first-child { display: grid; line-height: 1.05; }
-        .eyebrow {
-          color: var(--ink-500);
-          font-size: .68rem;
-          font-weight: 800;
-          letter-spacing: .08em;
-          text-transform: uppercase;
-        }
-        strong { color: var(--green-950); font-size: 1.08rem; margin-top: 4px; }
-        .actions { display: flex; align-items: center; gap: 9px; }
         label {
-          min-width: 300px;
+          width: min(520px, 52vw);
           display: flex;
           align-items: center;
-          gap: 8px;
-          padding: 0 13px;
+          gap: 9px;
+          padding: 0 14px;
           border: 1px solid var(--line);
-          border-radius: 14px;
-          background: rgba(255,255,255,.8);
+          border-radius: 15px;
+          background: rgba(255,255,255,.82);
+          box-shadow: var(--shadow-sm);
         }
         input {
           width: 100%;
-          height: 42px;
+          height: 44px;
           border: 0;
           outline: 0;
           background: transparent;
         }
-        button {
-          width: 42px;
-          height: 42px;
+        .actions { display: flex; align-items: center; gap: 9px; }
+        .iconButton, .avatar {
+          width: 44px;
+          height: 44px;
           border: 1px solid var(--line);
           border-radius: 14px;
           background: white;
@@ -60,9 +51,8 @@ export function Topbar({ title }: { title: string }) {
         }
         .avatar { color: white; background: var(--green-900); border-color: var(--green-900); }
         @media (max-width: 760px) {
-          label { min-width: 0; width: 44px; }
-          input { display: none; }
-          .topbar > div:first-child { max-width: 170px; }
+          label { width: 44px; padding: 0; justify-content: center; }
+          input, .actions :global(.button) { display: none; }
         }
       `}</style>
     </header>

@@ -6,10 +6,10 @@ export function Card({
   ...props
 }: HTMLAttributes<HTMLDivElement> & { children: ReactNode }) {
   return (
-    <div className={`hp-card ${className}`} {...props}>
+    <div className={`card ${className}`} {...props}>
       {children}
       <style jsx>{`
-        .hp-card {
+        .card {
           padding: 22px;
           border: 1px solid var(--line);
           border-radius: var(--radius-lg);
