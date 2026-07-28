@@ -45,7 +45,7 @@ export function DashboardHome({ onOpenAtlas }: { onOpenAtlas: () => void }) {
       <section className="section grid grid-2">
         <Card>
           <div className="kicker">Weiterlernen</div>
-          <h2>Die tierische Zelle</h2>
+          <h2>Die menschliche Zelle</h2>
           <p className="muted lessonText">
             Zellkern, Mitochondrien, ER, Golgi-Apparat und Zellmembran – visuell, interaktiv und prüfungsnah.
           </p>
